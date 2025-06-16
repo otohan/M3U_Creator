@@ -1,6 +1,6 @@
 # About M3U Creator (version 0.1.0)
 
-This is a simple automation program to create M3U files, intended for personal requirements.
+This is a simple automation program to create M3U files, intended for personal use.
 
 ## Instructions
 

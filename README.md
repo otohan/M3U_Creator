@@ -6,7 +6,7 @@ This is a simple automation program to create M3U files, intended for personal u
 
 1. Insert the executable "M3UCreator" into the desired folder containing the list of files.
 
-2. Launch the executable, this will autmatically create an ouput M3U file.
+2. Launch the executable, this will automatically create an ouput M3U file.
 
 ## Notes
 

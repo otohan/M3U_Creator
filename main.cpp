@@ -4,8 +4,8 @@
 
 int main(){
 
-    std::string directory = std::filesystem::current_path();
-    std::string directory_name = std::filesystem::current_path().filename();
+    std::string directory = std::filesystem::current_path().string();
+    std::string directory_name = std::filesystem::current_path().filename().string();
 
     if(std::filesystem::exists(directory) && std::filesystem::is_directory(directory)){
 
@@ -14,7 +14,7 @@ int main(){
         
         //list files into the .M3U file.
         for(const auto& track : std::filesystem::directory_iterator(directory)){
-            std::string file_extension = track.path().extension();
+            std::string file_extension = track.path().extension().string();
             //for .mp3 files.
             if(file_extension == ".mp3"){
                 FILE << track.path().filename().string() << std::endl;

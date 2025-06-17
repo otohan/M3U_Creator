@@ -1,6 +1,6 @@
 # About M3U Creator (version 0.1.1)
 
-This is a simple automation program for creating M3U playlist files. It was just intended for personal use.
+This is a simple automation program for creating M3U playlist files. It was intended just for personal use.
 
 ## Instructions
 
